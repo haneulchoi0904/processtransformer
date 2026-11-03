@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.orig
+.venv/
+/datasets/
+/models/
+/run_seeded.py
+*.h5

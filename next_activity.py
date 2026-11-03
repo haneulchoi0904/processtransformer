@@ -43,7 +43,7 @@ if __name__ == "__main__":
     model_path = f"{args.model_dir}/{args.dataset}"
     if not os.path.exists(model_path):
         os.makedirs(model_path)
-    model_path = f"{model_path}/next_activity_ckpt"
+    model_path = f"{model_path}/next_activity_ckpt.weights.h5"
 
     result_path = f"{args.result_dir}/{args.dataset}"
     if not os.path.exists(result_path):
