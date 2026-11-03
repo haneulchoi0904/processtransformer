@@ -2,7 +2,7 @@
 
 Part of a replication of Wang et al., "MTLFormer: Multi-task learning guided transformer network for business process prediction", IEEE Access 11 (2023) (course 2IMI00, TU/e). This repository reproduces the **STLFormer baseline, Table 3 of the paper: next-activity accuracy, next-event time MAE and remaining-time MAE** on Helpdesk and BPIC2012 A, O, W. STLFormer is the single-task ProcessTransformer of Bukhsh et al. (one model per task).
 
-This is a patched copy of ProcessTransformer (Apache 2.0, base commit `3f041e4`, cloned 2026-10-07) with the changes listed below. The original README is `README_upstream.md`.
+This is a patched copy of ProcessTransformer (Apache 2.0, base commit `3f041e4`, cloned 2026-10-07) with the changes listed below. 
 
 ## Environment
 Tested on Windows, **CPU only** (AMD Ryzen 7 PRO 8845HS, 31 GB RAM): Python 3.10.2, TensorFlow 2.21.0, Keras 3.12.4, numpy 2.2.6, pandas 2.3.3, scikit-learn 1.7.2 (see `requirements.txt`).
