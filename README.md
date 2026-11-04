@@ -51,7 +51,7 @@ Paper (Table 3, STLFormer): accuracy 86 / 77 / 87 / 90; next-event time 3.14 / 1
 5. Added `run_stlformer.py` (copies the log, preprocesses, runs the three tasks, seeded runs), `split_bpic2012.py`, `summarize_results.py`. The original `next_activity.py` summary row computes accuracy as `np.mean(accuracy)` (the last prefix) instead of `np.mean(accuracies)`; `summarize_results.py` therefore drops that row and recomputes all averages.
 
 ## Known issues
-- BPIC2012_A has zero SD over the three runs, and its accuracy equals that of a bigram lookup.
+- BPIC2012_A has zero SD over the three runs.
 - Recall equals accuracy (class-weighted averaging).
 - Seeded runs on other hardware or library versions may differ in the last digits.
 
